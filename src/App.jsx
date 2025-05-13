@@ -4,7 +4,7 @@ import Joker from './Joker'
 
 function App() {
   return (
-    <div className='text-center mt-60'>
+    <div className='text-center '>
 
     <Joker/>
    

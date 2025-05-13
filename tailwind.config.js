@@ -4,9 +4,21 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+theme: {
+  extend: {
+    animation: {
+      wiggle: "wiggle 1.2s ease-in-out infinite",
+    },
+    keyframes: {
+      wiggle: {
+        "0%, 100%": { transform: "rotate(-5deg)" },
+        "50%": { transform: "rotate(5deg)" },
+      },
+    },
   },
-  plugins: [],
+}
+
+
+
 }
 
